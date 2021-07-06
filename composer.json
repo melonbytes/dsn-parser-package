@@ -1,0 +1,22 @@
+{
+    "name": "melonbytes/dsn-parser-package",
+    "type": "library",
+    "description": "A DSN parser package.",
+    "keywords": ["database","connection","datasource","dsn"],
+    "homepage": "https://melonbytes.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ray Bramwell",
+            "homepage": "http://melonbytes.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MelonBytes\\DSNParserPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
