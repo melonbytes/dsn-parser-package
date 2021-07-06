@@ -25,9 +25,3 @@ class DSN {
         return $dsn;
     }
 }
-
-$secret1 = "mariadb://test_usr:Nfuih@e9v:4/fsdv_dsf.dfsS3@local-proxysql.localdomain/test_db";
-$secret2 = "invalid_string";
-$conn = new DSN();
-print_r($conn->parse($secret1));
-print_r($conn->parse($secret2));
