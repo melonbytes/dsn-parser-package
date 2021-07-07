@@ -4,6 +4,7 @@
     "description": "A DSN parser package.",
     "keywords": ["database","connection","datasource","dsn"],
     "homepage": "https://melonbytes.com",
+    "license": "MIT",
     "require": {
         "php": ">=5.4"
     }
