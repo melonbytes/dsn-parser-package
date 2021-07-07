@@ -5,7 +5,22 @@
     "keywords": ["database","connection","datasource","dsn"],
     "homepage": "https://melonbytes.com",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Ray Bramwell",
+            "homepage": "http://melonbytes.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.4"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "MelonBytes\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
+
