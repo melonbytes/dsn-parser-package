@@ -23,7 +23,6 @@
             "MelonBytes\\DSNParser\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
 
