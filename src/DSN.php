@@ -1,6 +1,6 @@
 <?php
 
-namespace MelonBytes;
+namespace MelonBytes\DSNParser;
 
 class DSN {
     public $connection_string;
