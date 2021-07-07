@@ -7,7 +7,7 @@ class DSN {
     const DSN_FORMAT = '/^([[:alnum:]]+):\/\/([[:alnum:]_-]+):([[:ascii:]]+)@([[:alnum:].-]+)\/([[:alnum:]_-]+)$/';
 
     function parse($connection_string) {
-        $dsn = new stdClass;
+        $dsn = new \stdClass;
         $dsn->dsn = $connection_string;
         if (preg_match(self::DSN_FORMAT,$connection_string,$matches)) {
             $dsn->protocol = $matches[1];
