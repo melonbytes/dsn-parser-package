@@ -18,6 +18,9 @@
     "autoload": {
         "psr-4": {
             "MelonBytes\\DSNParser\\": "src/"
+        },
+        "psr-0": {
+            "MelonBytes\\DSNParser\\": "src/"
         }
     },
     "minimum-stability": "dev",
